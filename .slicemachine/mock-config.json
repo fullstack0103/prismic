@@ -1,0 +1,24 @@
+{
+  "_cts": {
+    "first-type": {}
+  },
+  "slices": {
+    "MySlice": {
+      "default": {
+        "primary": {
+          "title": {
+            "config": {
+              "patternType": "HEADING",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    },
+    "LoginPage": {
+      "default": {
+        "items": {}
+      }
+    }
+  }
+}

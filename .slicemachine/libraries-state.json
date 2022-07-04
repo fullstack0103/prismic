@@ -1,0 +1,159 @@
+{
+  "slices": {
+    "components": {
+      "login_page": {
+        "library": "slices",
+        "id": "login_page",
+        "name": "LoginPage",
+        "description": "LoginPage",
+        "model": {
+          "id": "login_page",
+          "type": "SharedSlice",
+          "name": "LoginPage",
+          "description": "LoginPage",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "LoginPage",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1",
+                    "label": "Title",
+                    "placeholder": "This is where it all begins..."
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "paragraph",
+                    "label": "Description",
+                    "placeholder": "A nice description of your feature"
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "login_page",
+            "items": [],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Empower next-generation relationships",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Officia labore eu esse nulla do amet anim ex labore sit.",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "E:\\Next-test\\fullstack2022\\.slicemachine\\assets\\slices\\LoginPage\\default\\preview.png",
+            "width": 800,
+            "height": 73
+          }
+        }
+      },
+      "my_slice": {
+        "library": "slices",
+        "id": "my_slice",
+        "name": "MySlice",
+        "description": "MySlice",
+        "model": {
+          "id": "my_slice",
+          "type": "SharedSlice",
+          "name": "MySlice",
+          "description": "MySlice",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "MySlice",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Home page",
+                    "placeholder": "This is where it all begins...",
+                    "allowTargetBlank": true,
+                    "single": "heading1"
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "paragraph",
+                    "label": "Description",
+                    "placeholder": "A nice description of your feature"
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "my_slice",
+            "items": [],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Incentivize killer web-readiness",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Velit pariatur velit officia sunt exercitation minim ex et tempor excepteur officia id. Quis aliquip mollit exercitation sint dolor.",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "E:\\Next-test\\fullstack2022\\slices\\MySlice\\default\\preview.jpeg",
+            "width": 1340,
+            "height": 812
+          }
+        }
+      }
+    }
+  }
+}
