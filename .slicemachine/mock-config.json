@@ -1,12 +1,96 @@
 {
   "_cts": {
-    "first-type": {}
+    "navigation": {
+      "links": {
+        "label": {
+          "config": {
+            "patternType": "HEADING",
+            "blocks": 1
+          }
+        }
+      },
+      "homepageLabel": {
+        "config": {
+          "patternType": "HEADING",
+          "blocks": 1
+        }
+      }
+    },
+    "page": {
+      "title": {
+        "config": {
+          "patternType": "HEADING",
+          "blocks": 1
+        }
+      }
+    },
+    "article": {
+      "title": {
+        "config": {
+          "patternType": "HEADING",
+          "blocks": 1
+        }
+      }
+    },
+    "settings": {
+      "name": {
+        "config": {
+          "patternType": "HEADING",
+          "blocks": 1
+        }
+      },
+      "description": {
+        "config": {
+          "patternType": "PARAGRAPH",
+          "blocks": 1
+        }
+      },
+      "newsletterDescription": {
+        "config": {
+          "patternType": "PARAGRAPH",
+          "blocks": 1
+        }
+      },
+      "newsletterDisclaimer": {
+        "config": {
+          "patternType": "PARAGRAPH",
+          "blocks": 1
+        }
+      }
+    }
   },
   "slices": {
-    "MySlice": {
+    "Text": {
       "default": {
         "primary": {
-          "title": {
+          "text": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    },
+    "Image": {
+      "default": {
+        "primary": {
+          "caption": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
+      },
+      "wide": {
+        "primary": {}
+      }
+    },
+    "Quote": {
+      "default": {
+        "primary": {
+          "quote": {
             "config": {
               "patternType": "HEADING",
               "blocks": 1
@@ -15,9 +99,14 @@
         }
       }
     },
-    "LoginPage": {
+    "ContactForm": {
       "default": {
-        "items": {}
+        "primary": {}
+      }
+    },
+    "SignUpForm": {
+      "default": {
+        "primary": {}
       }
     }
   }
